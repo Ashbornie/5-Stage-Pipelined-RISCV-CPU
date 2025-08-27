@@ -1,0 +1,38 @@
+/*
+	Name: Control Unit Pipeline Register for Memory Access - WriteBack Stage
+	
+*/
+
+
+module c_IM_IW (input   clk, reset, 
+                input   RegWriteM, BranchM, JumpM,
+					 output reg BranchW, JumpW,
+                input   [1:0] ResultSrcM, 
+                output reg RegWriteW, 
+                output reg [1:0] ResultSrcW,
+					 input [2:0] funct3m,
+		          output reg [2:0] funct3w,
+					 input [3:0] ALUControlM,
+					 output reg [3:0] ALUControlW);
+
+    always @( posedge clk, posedge reset ) begin
+        if (reset) begin
+            RegWriteW <= 0;
+            ResultSrcW <= 0; 
+				funct3w <=0;
+				BranchW <=0;
+				ALUControlW <=0;
+        end
+
+        else begin
+            RegWriteW <= RegWriteM;
+            ResultSrcW <= ResultSrcM; // lol this wasted 1 hour
+				funct3w <= funct3m;
+				BranchW <= BranchM;
+				ALUControlW <= ALUControlM;
+				JumpW <= JumpM;
+        end
+
+    end
+
+endmodule

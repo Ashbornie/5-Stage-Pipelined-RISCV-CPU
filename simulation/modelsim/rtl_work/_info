@@ -1,0 +1,642 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/GITHUB/5 Stage Pipelined RISCV CPU/simulation/modelsim
+vadder
+Z1 !s110 1756315685
+!i10b 1
+!s100 jXE67fZjiCj2W4l?`i:H?0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IoV>m]@G@nDD>Rz_:AI9m51
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1736688907
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/adder.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/adder.v
+!i122 15
+L0 4 8
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1756315685.000000
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/adder.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work {+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components}
+Z9 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 hb?bJI5ZWO8eL8X?n:a_03
+R2
+I:mo7ffnId[Lcc6E?N_TOd2
+R3
+R0
+R4
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/alu.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/alu.v
+!i122 14
+L0 9 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/alu.v|
+!i113 1
+R7
+R8
+R9
+valudec
+R1
+!i10b 1
+!s100 z;ffVMR;9`i<?o[mbm<8E0
+R2
+I[1U]RNH>Leh@61SCLXl3a2
+R3
+R0
+R4
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/alu_decoder.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/alu_decoder.v
+!i122 13
+L0 10 59
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/alu_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/alu_decoder.v|
+!i113 1
+R7
+R8
+R9
+vbranching_unit
+Z10 !s110 1756315682
+!i10b 1
+!s100 Y9Z=MZSAcOQ_]nPXHBZiW3
+R2
+I?<<0zT=A5cZL>F1nb18zZ2
+R3
+R0
+R4
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/branching_unit.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/branching_unit.v
+!i122 3
+L0 4 23
+R5
+r1
+!s85 0
+31
+Z11 !s108 1756315682.000000
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/branching_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/branching_unit.v|
+!i113 1
+R7
+R8
+R9
+vc_ID_IEx
+Z12 !s110 1756315687
+!i10b 1
+!s100 BL:UjJh0;R4YNDNTWTC`J0
+R2
+IN1M6T1RElAn=bcf^;n]Z<3
+R3
+R0
+R4
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_ID_IE.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_ID_IE.v
+!i122 21
+L0 6 54
+R5
+r1
+!s85 0
+31
+Z13 !s108 1756315687.000000
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_ID_IE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_ID_IE.v|
+!i113 1
+R7
+R8
+R9
+nc_@i@d_@i@ex
+vc_IEx_IM
+R12
+!i10b 1
+!s100 P[=mSGKiG:CiKMJAh[Zn00
+R2
+ITRS9X48ea5n>YiO97KJlW2
+R3
+R0
+Z14 w1736688908
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_IE_IM.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_IE_IM.v
+!i122 22
+L0 6 35
+R5
+r1
+!s85 0
+31
+R13
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_IE_IM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_IE_IM.v|
+!i113 1
+R7
+R8
+R9
+nc_@i@ex_@i@m
+vc_IM_IW
+R12
+!i10b 1
+!s100 2RnJ03mRLQh=T]k[QOQVL1
+R2
+I<l<UTAd<GZM<I<[7K`biF0
+R3
+R0
+R14
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_IM_IW.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_IM_IW.v
+!i122 23
+L0 7 34
+R5
+r1
+!s85 0
+31
+R13
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_IM_IW.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/C_IM_IW.v|
+!i113 1
+R7
+R8
+R9
+nc_@i@m_@i@w
+vcontroller
+R1
+!i10b 1
+!s100 bD73B3AzoMT[m[S4dE;PZ1
+R2
+Ij20^aU?_`WiYN=ze=8Ifk3
+R3
+R0
+R4
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/controller.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/controller.v
+!i122 12
+L0 9 58
+R5
+r1
+!s85 0
+31
+Z15 !s108 1756315684.000000
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/controller.v|
+!i113 1
+R7
+R8
+R9
+vdata_mem
+R10
+!i10b 1
+!s100 8fIQk5?Cfi5UNo79TBk1=1
+R2
+Img0MIPg0JY_IgVfQ3VZ7W1
+R3
+R0
+Z16 w1736688906
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/data_mem.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/data_mem.v
+!i122 2
+L0 4 59
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/data_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/data_mem.v|
+!i113 1
+R7
+Z17 !s92 -vlog01compat -work work {+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code}
+R9
+vdatapath
+Z18 !s110 1756315684
+!i10b 1
+!s100 `>RS2_YN0R7jQjK73a`;P3
+R2
+IOgZJ5KjQ1nbi51Tf=`;Ln2
+R3
+R0
+R14
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/datapath.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/datapath.v
+!i122 11
+L0 10 82
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/datapath.v|
+!i113 1
+R7
+R8
+R9
+vhazardunit
+Z19 !s110 1756315686
+!i10b 1
+!s100 e=Z<Ld8]HReJlgjLm?Pn>1
+R2
+IQ7lgKIIYfAKI;jKPWG6hP2
+R3
+R0
+R14
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/hazard_unit.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/hazard_unit.v
+!i122 20
+L0 7 50
+R5
+r1
+!s85 0
+31
+Z20 !s108 1756315686.000000
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/hazard_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/hazard_unit.v|
+!i113 1
+R7
+R8
+R9
+vID_IEx
+R19
+!i10b 1
+!s100 3`h:T`_@zScXDYY_N6_n13
+R2
+IF?;dR<0i3jDDj=4EZ:__Q3
+R3
+R0
+R14
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/ID_IE.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/ID_IE.v
+!i122 17
+Z21 L0 8 45
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/ID_IE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/ID_IE.v|
+!i113 1
+R7
+R8
+R9
+n@i@d_@i@ex
+vIEx_IMem
+R19
+!i10b 1
+!s100 h;YGO;LCFYnX^AkL65XG>3
+R2
+I@FzOak;<7laWl@^_c8`;k1
+R3
+R0
+R14
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IE_IM.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IE_IM.v
+!i122 18
+L0 7 44
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IE_IM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IE_IM.v|
+!i113 1
+R7
+R8
+R9
+n@i@ex_@i@mem
+vIF_ID
+R1
+!i10b 1
+!s100 Uc@kf``MO443BJ^<HFl5U1
+R2
+Il_E5Rdh<Ii;2dO^Mz2a^`0
+R3
+R0
+R14
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IF_ID.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IF_ID.v
+!i122 16
+L0 7 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IF_ID.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IF_ID.v|
+!i113 1
+R7
+R8
+R9
+n@i@f_@i@d
+vIMem_IW
+R19
+!i10b 1
+!s100 A7@A_c032FU[k>7j==W3=1
+R2
+I^0RdUWjgMKSeiZ0@:GGZQ0
+R3
+R0
+R14
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IM_IW.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IM_IW.v
+!i122 19
+R21
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IM_IW.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/IM_IW.v|
+!i113 1
+R7
+R8
+R9
+n@i@mem_@i@w
+vimm_extend
+R18
+!i10b 1
+!s100 KCY0HN8a_SDDT@o^3341e2
+R2
+I7fi4nm`Z>TI<n^?FLngj;1
+R3
+R0
+R14
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/imm_extend.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/imm_extend.v
+!i122 10
+L0 3 21
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/imm_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/imm_extend.v|
+!i113 1
+R7
+R8
+R9
+vinstr_mem
+R12
+!i10b 1
+!s100 edU3X0aMQ1]cL11M;OEm01
+R2
+IQm]^7Ja<3ISFmTDG?[3`z2
+R3
+R0
+R16
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/instr_mem.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/instr_mem.v
+!i122 24
+L0 4 17
+R5
+r1
+!s85 0
+31
+R13
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/instr_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/instr_mem.v|
+!i113 1
+R7
+R17
+R9
+vmaindec
+R18
+!i10b 1
+!s100 N2GiVKmNhj9GVJFPbCaI^1
+R2
+IhR^2Wh0>9RUc[0i=7n>F50
+R3
+R0
+R14
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/main_decoder.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/main_decoder.v
+!i122 9
+L0 9 32
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/main_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/main_decoder.v|
+!i113 1
+R7
+R8
+R9
+vmux2
+R18
+!i10b 1
+!s100 O<Ld`3jD6QL?6PIEe_QAk1
+R2
+IZ?4RJg5[7o;KoZ6;iYDEB3
+R3
+R0
+Z22 w1736688909
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux2.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux2.v
+!i122 8
+Z23 L0 4 9
+R5
+r1
+!s85 0
+31
+Z24 !s108 1756315683.000000
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux2.v|
+!i113 1
+R7
+R8
+R9
+vmux3
+Z25 !s110 1756315683
+!i10b 1
+!s100 fShz_RzH66YN6G@4dH?@Y3
+R2
+I;Bg;dePdiT12faMEnf:hR0
+R3
+R0
+R22
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux3.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux3.v
+!i122 7
+R23
+R5
+r1
+!s85 0
+31
+R24
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux3.v|
+!i113 1
+R7
+R8
+R9
+vmux4
+R25
+!i10b 1
+!s100 V4YdM>hK^I8CMb?cH8Cej3
+R2
+ILFO4CP2oMWDg<L=HIS:Dd0
+R3
+R0
+R22
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux4.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux4.v
+!i122 6
+R23
+R5
+r1
+!s85 0
+31
+R24
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/mux4.v|
+!i113 1
+R7
+R8
+R9
+vpl_riscv_cpu
+R10
+!i10b 1
+!s100 1^>X_9`UB`;oN?<]I1a2Z0
+R2
+IU_o[<NJYgo2Ok_la0ZC?R2
+R3
+R0
+R4
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/pl_riscv_cpu.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/pl_riscv_cpu.v
+!i122 0
+L0 4 28
+R5
+r1
+!s85 0
+31
+!s108 1756315681.000000
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/pl_riscv_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/pl_riscv_cpu.v|
+!i113 1
+R7
+R17
+R9
+vreg_file
+R25
+!i10b 1
+!s100 hDfJeCPL76ldZ`N?EoZ[a3
+R2
+I=fiRk4V6BCbH600YCm_3a2
+R3
+R0
+R22
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/reg_file.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/reg_file.v
+!i122 5
+L0 8 24
+R5
+r1
+!s85 0
+31
+R24
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/reg_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/reg_file.v|
+!i113 1
+R7
+R8
+R9
+vreset_ff
+R25
+!i10b 1
+!s100 3@ZScVdHX=MMnU5@68k=@0
+R2
+IjeXfRIFeWT@Ug6o858fV>0
+R3
+R0
+R22
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/reset_ff.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/reset_ff.v
+!i122 4
+L0 4 16
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/reset_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/components/reset_ff.v|
+!i113 1
+R7
+R8
+R9
+vriscv_cpu
+R10
+!i10b 1
+!s100 O0ND`HkajS?KTe_kQ7RC01
+R2
+I@:MU<89gAjZ085XTITl3`2
+R3
+R0
+R4
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/code/riscv_cpu.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/code/riscv_cpu.v
+!i122 1
+L0 4 32
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/code/riscv_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/code|D:/GITHUB/5 Stage Pipelined RISCV CPU/code/riscv_cpu.v|
+!i113 1
+R7
+R17
+R9
+vtb
+!s110 1756315688
+!i10b 1
+!s100 <4N>iiAhSEoU7^MMoMXKh3
+R2
+I:oc6UPQhXMMI15onKMX<[1
+R3
+R0
+R16
+8D:/GITHUB/5 Stage Pipelined RISCV CPU/.test/tb.v
+FD:/GITHUB/5 Stage Pipelined RISCV CPU/.test/tb.v
+!i122 25
+L0 3 521
+R5
+r1
+!s85 0
+31
+R13
+!s107 D:/GITHUB/5 Stage Pipelined RISCV CPU/.test/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/.test|D:/GITHUB/5 Stage Pipelined RISCV CPU/.test/tb.v|
+!i113 1
+R7
+!s92 -vlog01compat -work work {+incdir+D:/GITHUB/5 Stage Pipelined RISCV CPU/.test}
+R9

@@ -1,0 +1,62 @@
+/*
+	Name: Control Unit Pipeline Register between Decode and Execution Stage*/
+
+
+
+module c_ID_IEx (input wire clk, reset, clear,
+        input wire RegWriteD, MemWriteD, JumpD, BranchD, ALUSrcAD,PCJalSrcD,
+		input wire [1:0] ALUSrcBD,
+        input wire [1:0] ResultSrcD, 
+        input wire [3:0] ALUControlD,  
+        output reg RegWriteE, MemWriteE, JumpE, BranchE,  ALUSrcAE,PCJalSrcE,
+		output reg [1:0] ALUSrcBE,
+        output reg [1:0] ResultSrcE,
+        output reg [3:0] ALUControlE,
+		  input [2:0] funct3,
+		  output reg [2:0] funct3e);
+
+always @( posedge clk, posedge reset ) begin
+
+		if (reset) begin
+			RegWriteE <= 0;
+			MemWriteE <= 0;
+			JumpE <= 0;
+			BranchE <= 0; 
+			ALUSrcAE <= 0;
+			ALUSrcBE <= 0;
+			ResultSrcE <= 0;
+			ALUControlE <= 0;
+			funct3e <= 0;
+		end
+
+		else if (clear) begin
+			RegWriteE <= 0;
+			MemWriteE <= 0;
+			JumpE <= 0;
+			BranchE <= 0; 
+			ALUSrcAE <= 0;
+			ALUSrcBE <= 0;
+			ResultSrcE <= 0;
+			ALUControlE <= 0; 
+			funct3e <= 0;
+		end
+		
+		else begin
+			RegWriteE <= RegWriteD;
+			MemWriteE <= MemWriteD;
+			JumpE <= JumpD;
+			BranchE <= BranchD; 
+			ALUSrcAE <= ALUSrcAD;
+			ALUSrcBE <= ALUSrcBD;
+			ResultSrcE <= ResultSrcD;
+			ALUControlE <= ALUControlD;  
+		   funct3e <= funct3;
+		   PCJalSrcE	<= PCJalSrcD;
+		end
+		 
+	 end
+  
+endmodule
+
+
+    

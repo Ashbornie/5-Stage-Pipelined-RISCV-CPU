@@ -1,0 +1,38 @@
+/*
+	Name: Control Unit Pipeline Register between Instruction Execution and Memory Access Stage
+*/
+
+
+module c_IEx_IM (input wire clk, reset,
+                input wire RegWriteE, MemWriteE, BranchE, JumpE,
+					 output reg BranchM,
+                input wire [1:0] ResultSrcE,  
+                output reg RegWriteM, MemWriteM, JumpM,
+                output reg [1:0] ResultSrcM,
+					 input [2:0] funct3e,
+		          output reg [2:0] funct3m,
+					 input [3:0] ALUControlE,
+					 output reg [3:0] ALUControlM);
+
+    always @( posedge clk, posedge reset ) begin
+        if (reset) begin
+            RegWriteM <= 0;
+            MemWriteM <= 0;
+            ResultSrcM <= 0;
+				funct3m <=0;
+				BranchM <=0;
+				ALUControlM <=0;
+        end
+        else begin
+            RegWriteM <= RegWriteE;
+            MemWriteM <= MemWriteE;
+            ResultSrcM <= ResultSrcE; 
+				funct3m <= funct3e;
+				BranchM <= BranchE;
+				ALUControlM <= ALUControlE;
+				JumpM <= JumpE;
+        end
+        
+    end
+
+endmodule
