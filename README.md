@@ -76,7 +76,20 @@ Key components include:
 ## 📸 **Stats for Nerds**
 
 <p align="center">
-  <img src="images/stats.png" alt="Stats" />
+  <table>
+    <tr>
+      <td align="center">
+        <img src="images/stats_pipeline.png" alt="Stats for 5 Stage Pipeline" width="400"/>
+        <br/>
+        <b>5 Stage Pipeline</b>
+      </td>
+      <td align="center">
+        <img src="images/stats_singlecycle.png" alt="Stats for Single Cycle" width="400"/>
+        <br/>
+        <b>Single Cycle</b>
+      </td>
+    </tr>
+  </table>
 </p>
 
 * **Target Device:** Cyclone IV E
