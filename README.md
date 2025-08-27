@@ -45,27 +45,27 @@ Key components include:
 
 ## 🖼 **Architecture**
 
-![Architecture](architecture.png)
+![Architecture](images/architecture.png)
 
 ### **CPU Top-Level**
 
-![CPU Block](rvcpu.png)
+![CPU Block](images/rvcpu.png)
 
 ### **Waveform**
 
-![Waveform](waveform.png)
+![Waveform](images/waveform.png)
 
 ### **Hazard Unit**
 
-![Hazard Unit](hazard_unit.png)
+![Hazard Unit](images/hazard_unit.png)
 
 ### **Controller**
 
-![Controller](controller.png)
+![Controller](images/controller.png)
 
 ### **Datapath**
 
-![Datapath](datapath.png)
+![Datapath](images/datapath.png)
 
 ---
 
