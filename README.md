@@ -51,26 +51,6 @@ Key components include:
 
 ![Top Module](images/topmodule.png)
 
-### **CPU Block**
-
-![CPU Block](images/rvcpu.png)
-
-### **Waveform**
-
-![Waveform](images/waveform.png)
-
-### **Hazard Unit**
-
-![Hazard Unit](images/hazard_unit.png)
-
-### **Controller**
-
-![Controller](images/controller.png)
-
-### **Datapath**
-
-![Datapath](images/datapath.png)
-
 ---
 
 ## 📸 **Stats for Nerds**
@@ -92,6 +72,29 @@ Key components include:
   </table>
 </p>
 
+---
+
+## 📸 **Images**
+
+### **CPU Block**
+
+![CPU Block](images/rvcpu.png)
+
+### **Waveform**
+
+![Waveform](images/waveform.png)
+
+### **Hazard Unit**
+
+![Hazard Unit](images/hazard_unit.png)
+
+### **Controller**
+
+![Controller](images/controller.png)
+
+### **Datapath**
+
+![Datapath](images/datapath.png)
 
 ---
 
