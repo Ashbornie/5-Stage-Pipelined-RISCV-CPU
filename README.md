@@ -1,0 +1,1 @@
+A 5-stage pipelined RISC-V CPU implemented in Verilog with stages for Fetch, Decode, Execute, Memory, and Writeback. Supports hazard detection, forwarding, and branch handling. Includes testbenches and simulation files for verification on ModelSim/Quartus.
