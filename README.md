@@ -81,21 +81,17 @@ Key components include:
       <td align="center">
         <img src="images/stats_pipeline.png" alt="Stats for 5 Stage Pipeline" width="400"/>
         <br/>
-        <b>5 Stage Pipeline</b>
+        <b>5 Stage Pipelined RISCV</b>
       </td>
       <td align="center">
-        <img src="images/stats_singlecycle.png" alt="Stats for Single Cycle" width="400"/>
+        <img src="images/stats_singlecycle.png" alt="Stats for Single Cycle" width="400" height="300"/>
         <br/>
-        <b>Single Cycle</b>
+        <b>Single Cycle RISCV</b>
       </td>
     </tr>
   </table>
 </p>
 
-* **Target Device:** Cyclone IV E
-* **Logic Elements:** 7,096
-* **Registers:** 2,784
-* **Memory Bits:** 2,102
 
 ---
 
