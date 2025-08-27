@@ -84,7 +84,7 @@ Key components include:
         <b>5 Stage Pipelined RISCV</b>
       </td>
       <td align="center">
-        <img src="images/stats_singlecycle.png" alt="Stats for Single Cycle" width="400" height="300"/>
+        <img src="images/stats_singlecycle.png" alt="Stats for Single Cycle" width="400" height="500"/>
         <br/>
         <b>Single Cycle RISCV</b>
       </td>
