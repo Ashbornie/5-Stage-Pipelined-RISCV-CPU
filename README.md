@@ -47,7 +47,11 @@ Key components include:
 
 ![Architecture](images/architecture.png)
 
-### **CPU Top-Level**
+### **Top Module**
+
+![Top Module](images/topmodule.png)
+
+### **CPU Block**
 
 ![CPU Block](images/rvcpu.png)
 
@@ -72,7 +76,7 @@ Key components include:
 ## 📸 **Stats for Nerds**
 
 <p align="center">
-  <img src="stats.png" alt="Stats" />
+  <img src="images/stats.png" alt="Stats" />
 </p>
 
 * **Target Device:** Cyclone IV E
