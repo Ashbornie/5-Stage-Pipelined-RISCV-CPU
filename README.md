@@ -59,7 +59,7 @@ Key components include:
   <table>
     <tr>
       <td align="center">
-        <img src="images/stats_pipeline.png" alt="Stats for 5 Stage Pipeline" width="400"/>
+        <img src="images/stats_singlecycle.png" alt="Stats for 5 Stage Pipeline" width="400"/>
         <br/>
         <b>5 Stage Pipelined RISCV</b>
       </td>
